@@ -14,15 +14,15 @@ class TicTacToe
   def initialize(board)
     @board = board || Array.new(9, " ")
   end 
+ 
+
+
+  def display_board
+    
+  end
   
-end 
+  def valid_move?(position)
+    position
+  end
 
-
-
-def display_board
-  
-end
-
-def valid_move?(position)
-  position
 end
