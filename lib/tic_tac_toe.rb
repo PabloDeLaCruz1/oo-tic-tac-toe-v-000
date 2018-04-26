@@ -97,7 +97,7 @@ class TicTacToe
 
   def winner
     if won?
-     board[won?
+     board[won?]
     else
       nil
     end
