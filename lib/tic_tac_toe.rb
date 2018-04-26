@@ -102,4 +102,19 @@ class TicTacToe
       nil
     end
   end
+  
+  # Define your play method below
+def play
+  while !over?
+    turn
+  end
+  
+  if winner == "X"
+     puts "Congratulations X!"
+   elsif winner == "O"
+     puts "Congratulations O!"
+   else
+     puts "Cat's Game!"
+   end
+  end
 end
