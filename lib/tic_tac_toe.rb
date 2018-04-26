@@ -82,4 +82,8 @@ class TicTacToe
     end
     false
   end
+  
+  def full?
+    @board.include?(" ") ? false : true
+  end 
 end
