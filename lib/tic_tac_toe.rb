@@ -1,6 +1,6 @@
 class TicTacToe
   # attr_accessor = board
-  WIN_CONMIBATIONS = [
+  WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
     [6,7,8],
