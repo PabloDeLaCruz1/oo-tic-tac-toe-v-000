@@ -15,8 +15,6 @@ class TicTacToe
     @board = board || Array.new(9, " ")
   end 
  
-
-
   def display_board
   puts " #{@board[0]} | #{@board[1]} | #{@board[2]} "
   puts "-----------"
@@ -24,7 +22,10 @@ class TicTacToe
   puts "-----------"
   puts " #{@board[6]} | #{@board[7]} | #{@board[8]} "
 end
-  
+
+ def input_to_index(user_input)
+   user_input.to_i - 1
+end 
   def valid_move?(position)
     position
   end
