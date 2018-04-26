@@ -1,5 +1,8 @@
 class TicTacToe
-  attr_accessor = board
+  attr_accessor = 
+  
+  def initialize(board)
+    @board = board || Array.new(9, " ")
 end 
 
 WIN_CONMIBATIONS = [
